@@ -1,9 +1,9 @@
-# NonOrthogonal_FVM_SIMPLE_2D Whcih solves Non Dimensional Laminar Governing Equations.
-# Solver is robust enough to handle 70+ Non Orthogoanlity with good precision and uses volumetric interpolation for better accuracy.
-# Solver can handle even highly skewed grids.
-# While giving co-ordinates of your own mesh, make sure that increments in rows is increment in x-direction.
-# Solver contains preprocessing script to compute surface values and other parameters required for solver
-# Solver contains postprocessing script to view results and also optional script to export to .plt format which can be viewed in ParaView/TecPlot.
+NonOrthogonal_FVM_SIMPLE_2D Whcih solves Non Dimensional Laminar Governing Equations.
+Solver is robust enough to handle 70+ Non Orthogoanlity with good precision and uses volumetric interpolation for better accuracy.
+Solver can handle even highly skewed grids.
+While giving co-ordinates of your own mesh, make sure that increments in rows is increment in x-direction.
+Solver contains preprocessing script to compute surface values and other parameters required for solver
+Solver contains postprocessing script to view results and also optional script to export to .plt format which can be viewed in ParaView/TecPlot.
 
 # Lid Driven Cavity
 
