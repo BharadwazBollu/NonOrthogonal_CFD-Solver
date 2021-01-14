@@ -5,6 +5,15 @@ While giving co-ordinates of your own mesh, make sure that increments in rows is
 Solver contains preprocessing script to compute surface values and other parameters required for solver
 Solver contains postprocessing script to view results and also optional script to export to .plt format which can be viewed in ParaView/TecPlot.
 
+# Flow over Cylinder/Circle  
+
+Grid = 41x41, Reynolds Number = 30
+
+![Mesh](https://user-images.githubusercontent.com/68074795/87077210-6ec01900-c240-11ea-825b-cbd5afc73c0d.gif)
+![bluffCircle_Ucontour](https://user-images.githubusercontent.com/68074795/87077227-74b5fa00-c240-11ea-9c96-1aa05da6ff4b.jpg)
+![bluffCircle_Vcontour](https://user-images.githubusercontent.com/68074795/87077229-75e72700-c240-11ea-892c-9aae297aa501.jpg)
+![bluffCircle_Quiver](https://user-images.githubusercontent.com/68074795/87077239-78498100-c240-11ea-879c-2751af173309.jpg)
+
 # Lid Driven Cavity
 
 Grid = 41x41, Reynolds Number = 100
@@ -24,12 +33,3 @@ Grid = 41x41, Reynolds Number = 100
 ![pipeBend_Vcontour](https://user-images.githubusercontent.com/68074795/87077138-49cba600-c240-11ea-9965-3343973f74cd.jpg)
 ![pipeBend_Quiver](https://user-images.githubusercontent.com/68074795/87077126-47694c00-c240-11ea-8a3f-b925a70782f4.jpg)
 
-
-# Flow over Cylinder/Circle  
-
-Grid = 41x41, Reynolds Number = 30
-
-![Mesh](https://user-images.githubusercontent.com/68074795/87077210-6ec01900-c240-11ea-825b-cbd5afc73c0d.gif)
-![bluffCircle_Ucontour](https://user-images.githubusercontent.com/68074795/87077227-74b5fa00-c240-11ea-9c96-1aa05da6ff4b.jpg)
-![bluffCircle_Vcontour](https://user-images.githubusercontent.com/68074795/87077229-75e72700-c240-11ea-892c-9aae297aa501.jpg)
-![bluffCircle_Quiver](https://user-images.githubusercontent.com/68074795/87077239-78498100-c240-11ea-879c-2751af173309.jpg)
